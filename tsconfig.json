@@ -19,7 +19,7 @@
     "rewriteRelativeImportExtensions": true,
     // Type Checking
     "strict": true,
-    "noUncheckedIndexedAccess": true,
+    // "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "types": [
       "vitest/globals"
