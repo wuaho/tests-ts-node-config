@@ -8,5 +8,6 @@ export default tseslint.config(eslint.configs.recommended, tseslint.configs.reco
   plugins: { jest: jestPlugin },
   rules: {
     ...jestPlugin.configs.recommended.rules,
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 });
